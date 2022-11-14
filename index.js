@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const { writeFile, stat } = require("fs");
+const { writeFile, fstat } = require("fs");
 const { prompt } = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
